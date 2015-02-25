@@ -1,0 +1,9 @@
+create or replace view CITY_NAMELIST_OF_MIE
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_MIE
+/
+

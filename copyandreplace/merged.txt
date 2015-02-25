@@ -1,0 +1,423 @@
+create or replace view CITY_NAMELIST_OF_YAMANASHI
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_YAMANASHI
+/
+
+create or replace view CITY_NAMELIST_OF_NAGASAKI
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_NAGASAKI
+/
+
+create or replace view CITY_NAMELIST_OF_EHIME
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_EHIME
+/
+
+create or replace view CITY_NAMELIST_OF_TOTTORI
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_TOTTORI
+/
+
+create or replace view CITY_NAMELIST_OF_AKITA
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_AKITA
+/
+
+create or replace view CITY_NAMELIST_OF_FUKUOKA
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_FUKUOKA
+/
+
+create or replace view CITY_NAMELIST_OF_KAGAWA
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_KAGAWA
+/
+
+create or replace view CITY_NAMELIST_OF_HIROSHIMA
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_HIROSHIMA
+/
+
+create or replace view CITY_NAMELIST_OF_AICHI
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_AICHI
+/
+
+create or replace view CITY_NAMELIST_OF_NARA
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_NARA
+/
+
+create or replace view CITY_NAMELIST_OF_OKINAWA
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_OKINAWA
+/
+
+create or replace view CITY_NAMELIST_OF_KAGOSHIMA
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_KAGOSHIMA
+/
+
+create or replace view CITY_NAMELIST_OF_OKAYAMA
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_OKAYAMA
+/
+
+create or replace view CITY_NAMELIST_OF_YAMAGUCHI
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_YAMAGUCHI
+/
+
+create or replace view CITY_NAMELIST_OF_TOCHIGI
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_TOCHIGI
+/
+
+create or replace view CITY_NAMELIST_OF_SHIMANE
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_SHIMANE
+/
+
+create or replace view CITY_NAMELIST_OF_CHIBA
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_CHIBA
+/
+
+create or replace view CITY_NAMELIST_OF_KYOTO
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_KYOTO
+/
+
+create or replace view CITY_NAMELIST_OF_TOKUSHIMA
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_TOKUSHIMA
+/
+
+create or replace view CITY_NAMELIST_OF_KOCHI
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_KOCHI
+/
+
+create or replace view CITY_NAMELIST_OF_SAITAMA
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_SAITAMA
+/
+
+create or replace view CITY_NAMELIST_OF_MIYAGI
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_MIYAGI
+/
+
+create or replace view CITY_NAMELIST_OF_AOMORI
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_AOMORI
+/
+
+create or replace view CITY_NAMELIST_OF_TOKYO
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_TOKYO
+/
+
+create or replace view CITY_NAMELIST_OF_FUKUSHIMA
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_FUKUSHIMA
+/
+
+create or replace view CITY_NAMELIST_OF_TOYAMA
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_TOYAMA
+/
+
+create or replace view CITY_NAMELIST_OF_KUMAMOTO
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_KUMAMOTO
+/
+
+create or replace view CITY_NAMELIST_OF_MIE
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_MIE
+/
+
+create or replace view CITY_NAMELIST_OF_SHIGA
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_SHIGA
+/
+
+create or replace view CITY_NAMELIST_OF_NIIGATA
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_NIIGATA
+/
+
+create or replace view CITY_NAMELIST_OF_YAMAGATA
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_YAMAGATA
+/
+
+create or replace view CITY_NAMELIST_OF_GIFU
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_GIFU
+/
+
+create or replace view CITY_NAMELIST_OF_IBARAKI
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_IBARAKI
+/
+
+create or replace view CITY_NAMELIST_OF_SAGA
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_SAGA
+/
+
+create or replace view CITY_NAMELIST_OF_OITA
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_OITA
+/
+
+create or replace view CITY_NAMELIST_OF_GUNMA
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_GUNMA
+/
+
+create or replace view CITY_NAMELIST_OF_FUKUI
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_FUKUI
+/
+
+create or replace view CITY_NAMELIST_OF_HOKKAIDO
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_HOKKAIDO
+/
+
+create or replace view CITY_NAMELIST_OF_KANAGAWA
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_KANAGAWA
+/
+
+create or replace view CITY_NAMELIST_OF_HYOGO
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_HYOGO
+/
+
+create or replace view CITY_NAMELIST_OF_MIYAZAKI
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_MIYAZAKI
+/
+
+create or replace view CITY_NAMELIST_OF_OSAKA
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_OSAKA
+/
+
+create or replace view CITY_NAMELIST_OF_ISHIKAWA
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_ISHIKAWA
+/
+
+create or replace view CITY_NAMELIST_OF_WAKAYAMA
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_WAKAYAMA
+/
+
+create or replace view CITY_NAMELIST_OF_IWATE
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_IWATE
+/
+
+create or replace view CITY_NAMELIST_OF_NAGANO
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_NAGANO
+/
+
+create or replace view CITY_NAMELIST_OF_SHIZUOKA
+    (CITY_ID, CITY_NAME)
+as
+select
+    CITY_ID, CITY_NAME
+from
+    PREFECTURE_DATA_OF_SHIZUOKA
+/
+
