@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    color (1.8)
+    geo_pattern (1.4.0)
+      color (~> 1.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  geo_pattern
+
+BUNDLED WITH
+   1.10.6
