@@ -1,0 +1,7 @@
+{
+  "main": "index.js",
+  "dependencies": {
+    "node-phantom": "^0.2.5",
+    "phantomjs": "^1.9.19"
+  }
+}
