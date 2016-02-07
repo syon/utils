@@ -1,7 +1,7 @@
 PhantomJS Capture
 =================
 
-`target.txt`(url list) -> `results/*.png`
+`targets.txt`(url list) -> `results/*.png`
 
 
 ## Install
