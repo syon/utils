@@ -1,7 +1,7 @@
 "use strict";
 var fs        = require('fs');
 var child     = require('child_process');
-var phantomjs = require('phantomjs');
+var phantomjs = require('phantomjs-prebuilt');
 
 const vp_w = 980;
 const vp_h = 768;
