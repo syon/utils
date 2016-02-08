@@ -21,9 +21,9 @@ page.open(address, function (status) {
       page.render(output);
       console.log("Success.");
       phantom.exit();
-    }, 1500); // Wait after loaded
+    }, 500); // Wait after loaded
   } else {
-    console.log('error', address);
+    console.log('error');
     phantom.exit();
   }
 });

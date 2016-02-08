@@ -1,7 +1,7 @@
 PhantomJS Capture
 =================
 
-`targets.txt`(url list) -> `results/*.png`
+`targets.tsv` -> `results/*.png`
 
 
 ## Install
@@ -17,6 +17,15 @@ $ brew install phantomjs
 $ npm install
 ```
 
+
+## Prepare
+__targets.tsv__ :: out filename and url (tab separated)
+
+example:
+```txt
+index_page	http://localhost/
+error_page	http://localhost/50x.html
+```
 
 ## Run
 

@@ -1,19 +1,21 @@
 "use strict";
-var fs        = require('fs');
-var child     = require('child_process');
-var phantomjs = require('phantomjs-prebuilt');
+let fs        = require('fs');
+let child     = require('child_process');
+let phantomjs = require('phantomjs-prebuilt');
 
 const vp_w = 980;
 const vp_h = 768;
 
-var array = fs.readFileSync('targets.txt').toString().split("\n");
-var targets = [];
-array.forEach((a, i) => {
+let txt = fs.readFileSync('targets.txt').toString();
+let urls = txt.replace(/\r/g, '').split("\n");
+let targets = [];
+urls.forEach((line, i) => {
+  let d = line.split("\t");
   let t = {
-    url: a,
-    out: `results/${i}.png`
+    out: `results/${d[0]}.png`,
+    url: d[1]
   }
-  if (a.length > 0) targets.push(t);
+  if (d.length == 2) targets.push(t);
 });
 
 let promises = [];
