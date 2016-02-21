@@ -7,6 +7,8 @@ PhantomJS Capture
 ## Install
 
 #### Get PhantomJS
+- [Download | PhantomJS](http://phantomjs.org/download.html)
+
 ```bash
 // OS X
 $ brew install phantomjs
