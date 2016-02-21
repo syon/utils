@@ -23,8 +23,9 @@ __targets.tsv__ :: out filename and url (tab separated)
 
 example:
 ```txt
-index_page	http://localhost/
-error_page	http://localhost/50x.html
+google	http://www.google.co.jp/
+yahoo	http://www.yahoo.co.jp/
+github	https://github.com/
 ```
 
 ## Run

@@ -6,7 +6,7 @@ let phantomjs = require('phantomjs-prebuilt');
 const vp_w = 980;
 const vp_h = 768;
 
-let txt = fs.readFileSync('targets.txt').toString();
+let txt = fs.readFileSync('targets.tsv').toString();
 let urls = txt.replace(/\r/g, '').split("\n");
 let targets = [];
 urls.forEach((line, i) => {
